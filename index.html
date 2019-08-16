@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="lib/p5.min.js"></script>
+  <title>flappyball</title>
+  <script src="lib/mini-NN-v1/matrix.js"></script>
+  <script src="lib/mini-NN-v1/nn.js"></script>
+
+  <script src="world.js"></script>
+  <script src="bar.js"></script>
+  <script src="ball.js"></script>
+  <script src="genetic.js"></script>
+  <script src="sketch.js"></script>
+
+  <style>
+    body {
+      background-color: rgb(20,20,20);
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .box {
+      margin:3px;
+    }
+  </style>
+</head>
+<body>
+<div class="box">Generation : <span id="genbox">0</span></div>
+<div class="box">Score : <span id="scorebox">0</span></div>
+<div class="box">High score : <span id="highbox">0</span></div>
+</body>
+</html>
